@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B8243394B843F49AB3C1474 /* Pods_ftcodec_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90163BFE6FB25292F82021A /* Pods_ftcodec_test.framework */; };
+		E453313D1D17EA3F00DBA0DD /* ftcodec.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E453313C1D17EA3F00DBA0DD /* ftcodec.podspec */; };
+		E49438271CC75965004A8071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E49438251CC75965004A8071 /* main.m */; };
+		E494382C1CC75980004A8071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49438281CC75980004A8071 /* LaunchScreen.xib */; };
+		E494382D1CC75980004A8071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E494382A1CC75980004A8071 /* Main.storyboard */; };
+		E4C4837C1CC7335200B05E76 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4C483741CC7335200B05E76 /* AppDelegate.mm */; };
+		E4C4837E1CC7335200B05E76 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C483771CC7335200B05E76 /* SettingsViewController.m */; };
+		E4C4837F1CC7335200B05E76 /* TalkerSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C483791CC7335200B05E76 /* TalkerSetting.m */; };
+		E4C483801CC7335200B05E76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4837B1CC7335200B05E76 /* ViewController.m */; };
+		E4C483821CC7336300B05E76 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C483811CC7336300B05E76 /* SettingsViewController.xib */; };
+		E4C483861CC7337800B05E76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C483851CC7337800B05E76 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		478F85C37B99D0F79920761E /* Pods-ftcodec-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ftcodec-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ftcodec-test/Pods-ftcodec-test.debug.xcconfig"; sourceTree = "<group>"; };
+		6701E64519F7447A00B51402 /* ftcodec-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ftcodec-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969E7C0C7EF9644B007AB381 /* Pods-ftcodec-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ftcodec-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-ftcodec-test/Pods-ftcodec-test.release.xcconfig"; sourceTree = "<group>"; };
+		B90163BFE6FB25292F82021A /* Pods_ftcodec_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ftcodec_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E453313C1D17EA3F00DBA0DD /* ftcodec.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ftcodec.podspec; sourceTree = "<group>"; };
+		E49438241CC75965004A8071 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ftcodec-test/Info.plist"; sourceTree = SOURCE_ROOT; };
+		E49438251CC75965004A8071 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ftcodec-test/main.m"; sourceTree = SOURCE_ROOT; };
+		E49438291CC75980004A8071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "ftcodec-test/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
+		E494382B1CC75980004A8071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ftcodec-test/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		E4C483731CC7335200B05E76 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "ftcodec-test/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		E4C483741CC7335200B05E76 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "ftcodec-test/AppDelegate.mm"; sourceTree = SOURCE_ROOT; };
+		E4C483761CC7335200B05E76 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = "ftcodec-test/SettingsViewController.h"; sourceTree = SOURCE_ROOT; };
+		E4C483771CC7335200B05E76 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = "ftcodec-test/SettingsViewController.m"; sourceTree = SOURCE_ROOT; };
+		E4C483781CC7335200B05E76 /* TalkerSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalkerSetting.h; path = "ftcodec-test/TalkerSetting.h"; sourceTree = SOURCE_ROOT; };
+		E4C483791CC7335200B05E76 /* TalkerSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TalkerSetting.m; path = "ftcodec-test/TalkerSetting.m"; sourceTree = SOURCE_ROOT; };
+		E4C4837A1CC7335200B05E76 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "ftcodec-test/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		E4C4837B1CC7335200B05E76 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "ftcodec-test/ViewController.m"; sourceTree = SOURCE_ROOT; };
+		E4C483811CC7336300B05E76 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = "ftcodec-test/SettingsViewController.xib"; sourceTree = SOURCE_ROOT; };
+		E4C483831CC7336E00B05E76 /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn.png; path = "ftcodec-test/btn.png"; sourceTree = SOURCE_ROOT; };
+		E4C483851CC7337800B05E76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "ftcodec-test/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6701E64219F7447A00B51402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8243394B843F49AB3C1474 /* Pods_ftcodec_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B68E20D716BEFA239021DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				478F85C37B99D0F79920761E /* Pods-ftcodec-test.debug.xcconfig */,
+				969E7C0C7EF9644B007AB381 /* Pods-ftcodec-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6701E5F419F743BF00B51402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6701E64519F7447A00B51402 /* ftcodec-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6701E64619F7447A00B51402 /* ftcodec-test */ = {
+			isa = PBXGroup;
+			children = (
+				E49438281CC75980004A8071 /* LaunchScreen.xib */,
+				E494382A1CC75980004A8071 /* Main.storyboard */,
+				E4C483731CC7335200B05E76 /* AppDelegate.h */,
+				E4C483741CC7335200B05E76 /* AppDelegate.mm */,
+				E4C483761CC7335200B05E76 /* SettingsViewController.h */,
+				E4C483771CC7335200B05E76 /* SettingsViewController.m */,
+				E4C483781CC7335200B05E76 /* TalkerSetting.h */,
+				E4C483791CC7335200B05E76 /* TalkerSetting.m */,
+				E4C4837A1CC7335200B05E76 /* ViewController.h */,
+				E4C4837B1CC7335200B05E76 /* ViewController.m */,
+				E4C483851CC7337800B05E76 /* Images.xcassets */,
+				E4C483811CC7336300B05E76 /* SettingsViewController.xib */,
+				E4C483831CC7336E00B05E76 /* btn.png */,
+				6701E64E19F7447A00B51402 /* ftcodec-test.xcdatamodeld */,
+				6701E64719F7447A00B51402 /* Supporting Files */,
+			);
+			name = "ftcodec-test";
+			path = UdpTalker;
+			sourceTree = "<group>";
+		};
+		6701E64719F7447A00B51402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49438241CC75965004A8071 /* Info.plist */,
+				E49438251CC75965004A8071 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67C0CACB19F5FBB300223DE8 = {
+			isa = PBXGroup;
+			children = (
+				E453313C1D17EA3F00DBA0DD /* ftcodec.podspec */,
+				6701E64619F7447A00B51402 /* ftcodec-test */,
+				6701E5F419F743BF00B51402 /* Products */,
+				05B68E20D716BEFA239021DC /* Pods */,
+				850CED3749BFDCF7B677CF09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		850CED3749BFDCF7B677CF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90163BFE6FB25292F82021A /* Pods_ftcodec_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6701E64419F7447A00B51402 /* ftcodec-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6701E66719F7447B00B51402 /* Build configuration list for PBXNativeTarget "ftcodec-test" */;
+			buildPhases = (
+				A4004B74FA367DBAAA57D9A5 /* [CP] Check Pods Manifest.lock */,
+				6701E64119F7447A00B51402 /* Sources */,
+				6701E64219F7447A00B51402 /* Frameworks */,
+				6701E64319F7447A00B51402 /* Resources */,
+				1888E005B7208EF1770012D1 /* [CP] Embed Pods Frameworks */,
+				997C04C3DE70F6C2F8C37E02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ftcodec-test";
+			productName = UdpTalker;
+			productReference = 6701E64519F7447A00B51402 /* ftcodec-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C0CACC19F5FBB300223DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.cdfortis;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "成都富顿科技有限公司";
+				TargetAttributes = {
+					6701E64419F7447A00B51402 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5SH2MMA82N;
+					};
+				};
+			};
+			buildConfigurationList = 67C0CACF19F5FBB300223DE8 /* Build configuration list for PBXProject "ftcodec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C0CACB19F5FBB300223DE8;
+			productRefGroup = 6701E5F419F743BF00B51402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6701E64419F7447A00B51402 /* ftcodec-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6701E64319F7447A00B51402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E494382C1CC75980004A8071 /* LaunchScreen.xib in Resources */,
+				E494382D1CC75980004A8071 /* Main.storyboard in Resources */,
+				E4C483861CC7337800B05E76 /* Images.xcassets in Resources */,
+				E4C483821CC7336300B05E76 /* SettingsViewController.xib in Resources */,
+				E453313D1D17EA3F00DBA0DD /* ftcodec.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1888E005B7208EF1770012D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ftcodec-test/Pods-ftcodec-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997C04C3DE70F6C2F8C37E02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ftcodec-test/Pods-ftcodec-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4004B74FA367DBAAA57D9A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6701E64119F7447A00B51402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49438271CC75965004A8071 /* main.m in Sources */,
+				E4C483801CC7335200B05E76 /* ViewController.m in Sources */,
+				E4C4837F1CC7335200B05E76 /* TalkerSetting.m in Sources */,
+				E4C4837C1CC7335200B05E76 /* AppDelegate.mm in Sources */,
+				E4C4837E1CC7335200B05E76 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E49438281CC75980004A8071 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49438291CC75980004A8071 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E494382A1CC75980004A8071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E494382B1CC75980004A8071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6701E66819F7447B00B51402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478F85C37B99D0F79920761E /* Pods-ftcodec-test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ftcodec-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdfortis.ftcodec.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		6701E66919F7447B00B51402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969E7C0C7EF9644B007AB381 /* Pods-ftcodec-test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ftcodec-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cdfortis.ftcodec.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		67C0CAD019F5FBB300223DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye wei (USQ9Z2REHG)";
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67C0CAD119F5FBB300223DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye wei (USQ9Z2REHG)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6701E66719F7447B00B51402 /* Build configuration list for PBXNativeTarget "ftcodec-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6701E66819F7447B00B51402 /* Debug */,
+				6701E66919F7447B00B51402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67C0CACF19F5FBB300223DE8 /* Build configuration list for PBXProject "ftcodec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C0CAD019F5FBB300223DE8 /* Debug */,
+				67C0CAD119F5FBB300223DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6701E64E19F7447A00B51402 /* ftcodec-test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			name = "ftcodec-test.xcdatamodeld";
+			path = UdpTalker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67C0CACC19F5FBB300223DE8 /* Project object */;
+}
