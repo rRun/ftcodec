@@ -1,1 +1,5 @@
 *xcuserdata
+Pods
+ftcodec.xcworkspace
+Podfile.lock
+*.xcworkspacedata
