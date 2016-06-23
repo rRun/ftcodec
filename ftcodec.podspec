@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "ftcodec"
-  s.version      = "1.0.1.520"
+  s.version      = "1.0.2.623"
   s.summary      = "video talker codec"
 
   s.description  = <<-DESC
-  编解码库
+  video talker codec编解码库
                    DESC
 
   s.homepage     = "http://www.cdfortis.com/ftcodec"
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
+  s.library = 'stdc++'
 
 end

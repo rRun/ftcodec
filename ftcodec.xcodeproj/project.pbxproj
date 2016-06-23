@@ -12,7 +12,7 @@
 		E49438271CC75965004A8071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E49438251CC75965004A8071 /* main.m */; };
 		E494382C1CC75980004A8071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49438281CC75980004A8071 /* LaunchScreen.xib */; };
 		E494382D1CC75980004A8071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E494382A1CC75980004A8071 /* Main.storyboard */; };
-		E4C4837C1CC7335200B05E76 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4C483741CC7335200B05E76 /* AppDelegate.mm */; };
+		E4C4837C1CC7335200B05E76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C483741CC7335200B05E76 /* AppDelegate.m */; };
 		E4C4837E1CC7335200B05E76 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C483771CC7335200B05E76 /* SettingsViewController.m */; };
 		E4C4837F1CC7335200B05E76 /* TalkerSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C483791CC7335200B05E76 /* TalkerSetting.m */; };
 		E4C483801CC7335200B05E76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4837B1CC7335200B05E76 /* ViewController.m */; };
@@ -31,7 +31,7 @@
 		E49438291CC75980004A8071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "ftcodec-test/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
 		E494382B1CC75980004A8071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "ftcodec-test/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		E4C483731CC7335200B05E76 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "ftcodec-test/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		E4C483741CC7335200B05E76 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "ftcodec-test/AppDelegate.mm"; sourceTree = SOURCE_ROOT; };
+		E4C483741CC7335200B05E76 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "ftcodec-test/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		E4C483761CC7335200B05E76 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = "ftcodec-test/SettingsViewController.h"; sourceTree = SOURCE_ROOT; };
 		E4C483771CC7335200B05E76 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = "ftcodec-test/SettingsViewController.m"; sourceTree = SOURCE_ROOT; };
 		E4C483781CC7335200B05E76 /* TalkerSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalkerSetting.h; path = "ftcodec-test/TalkerSetting.h"; sourceTree = SOURCE_ROOT; };
@@ -78,7 +78,7 @@
 				E49438281CC75980004A8071 /* LaunchScreen.xib */,
 				E494382A1CC75980004A8071 /* Main.storyboard */,
 				E4C483731CC7335200B05E76 /* AppDelegate.h */,
-				E4C483741CC7335200B05E76 /* AppDelegate.mm */,
+				E4C483741CC7335200B05E76 /* AppDelegate.m */,
 				E4C483761CC7335200B05E76 /* SettingsViewController.h */,
 				E4C483771CC7335200B05E76 /* SettingsViewController.m */,
 				E4C483781CC7335200B05E76 /* TalkerSetting.h */,
@@ -251,7 +251,7 @@
 				E49438271CC75965004A8071 /* main.m in Sources */,
 				E4C483801CC7335200B05E76 /* ViewController.m in Sources */,
 				E4C4837F1CC7335200B05E76 /* TalkerSetting.m in Sources */,
-				E4C4837C1CC7335200B05E76 /* AppDelegate.mm in Sources */,
+				E4C4837C1CC7335200B05E76 /* AppDelegate.m in Sources */,
 				E4C4837E1CC7335200B05E76 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +322,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				
 				PRODUCT_BUNDLE_IDENTIFIER = com.cdfortis.ftcodec.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -368,6 +369,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				
 				PRODUCT_BUNDLE_IDENTIFIER = com.cdfortis.ftcodec.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
