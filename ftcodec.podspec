@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ftcodec"
-  s.version      = "1.0.2.623"
+  s.version      = "1.1.0.307"
   s.summary      = "video talker codec"
 
   s.description  = <<-DESC
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://www.cdfortis.com/ftcodec"
-  s.license      = { :type => "Copyright", :text => "Copyright 2016 Fortis Inc." }
+  s.license      = { :type => "Copyright", :text => "Copyright 2017 Fortis Inc." }
 
   s.author             = { "xiachao" => "xiachao@cdfortis.com" }
 

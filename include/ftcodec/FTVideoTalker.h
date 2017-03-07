@@ -22,13 +22,13 @@
 @property (nonatomic) int height;
 @property (nonatomic) int frameRate;
 @property (nonatomic) int videoBitrate;
-
+@property (nonatomic) int videoRotate;
 //-------------音频配置------------------
 @property (nonatomic) int channels;
 @property (nonatomic) int sampleRate;
 @property (nonatomic) int audioBitrate;
-@property(nonatomic) BOOL mute;
-
+@property (nonatomic) BOOL muteMic;
+@property (nonatomic) BOOL mutePlayer;
 //--------------调试统计信息--------------
 //调试定时显示
 @property (readonly,nonatomic)  int audioLastRecvSize;
