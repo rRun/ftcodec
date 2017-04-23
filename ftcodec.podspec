@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "http://172.20.1.210:88/r/IOS/ftcodec.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/rRun/ftcodec.git", :tag => "#{s.version}" }
   s.vendored_libraries = "libftcodec.a"
 
   s.source_files  = "include/ftcodec/*.h"
